@@ -234,7 +234,7 @@ class ItemInfo {
                 }
             }
 
-            assert(height != nil && width != nil, "should not occurred")
+            assert(height != nil && width != nil, "should not occurred") //remove this
             
             applySizeMinMax()
             applyAspectRatioIfNeeded(.adjustCrossAxis)
