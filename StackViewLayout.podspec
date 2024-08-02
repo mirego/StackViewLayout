@@ -24,6 +24,9 @@ Pod::Spec.new do |spec|
   spec.tvos.deployment_target = '9.0'
   spec.tvos.frameworks        = 'Foundation', 'CoreGraphics', 'UIKit'
 
+  spec.visionos.deployment_target = '1.0'
+  spec.visionos.frameworks        = 'Foundation', 'CoreGraphics', 'UIKit'
+
   spec.source       = { :git => "https://github.com/layoutBox/StackViewLayout.git", :tag => "#{spec.version}" }
   spec.source_files  = "Sources/**/*.swift"
 end
