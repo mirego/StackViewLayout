@@ -35,9 +35,9 @@ Fast StackView, Concise syntax, intuitive, readable & chainable. Stacks easily m
 
 
 ### Requirements
-* iOS 9.0+ / tvOS 9.0+
-* Xcode 8.0+ / Xcode 9.0
-* Swift 3.0+ / Swift 4.0
+* iOS 12.0+ / tvOS 12.0+
+* Xcode 15+
+* Swift 5.0+
 
 ### Content
 
@@ -1013,7 +1013,14 @@ Then, run `pod install`.
 NOT IMPLEMENTED YET. COMING SOON.
 
 ### Swift Package Manager
-NOT IMPLEMENTED YET. COMING SOON.
+
+Add it via Xcode (**File › Add Package Dependencies…**) using the repository URL, or in your `Package.swift`:
+
+```swift
+.package(url: "https://github.com/mirego/StackViewLayout.git", branch: "dev")
+```
+
+Once a release is tagged, pin a version with `from:` instead of the branch.
 
 <br>
 
