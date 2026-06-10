@@ -9,3 +9,7 @@ data/
 Pods/
 
 docs/1.2
+
+# Swift Package Manager
+.build/
+.swiftpm/
